@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-groq
+httpx
+python-dotenv
+firecrawl-py
+urllib3
+langgraph-cli[inmem]
+streamlit
+pydantic
+huggingface-hub
+faiss-cpu
+sentence-transformers
