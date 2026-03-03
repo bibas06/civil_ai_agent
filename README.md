@@ -113,23 +113,25 @@ This repository is structured to support modular tool integration, RAG pipelines
 ---
 
 ## 📁 Folder Structure
-
-civil_ai_agent/
-├── agents/                 # Agent definitions & tools
-├── app/                    # FastAPI backend
-├── frontend/               # UI code (Streamlit / Web)
-├── rag/                    # RAG pipeline & embeddings
-├── tools/                  # Custom tools & utilities
-├── .gitignore
-├── config.py
-├── requirements.txt
-└── schemas.py
+    ```bash
+    civil_ai_agent/
+    ├── agents/                 # Agent definitions & tools
+    ├── app/                    # FastAPI backend
+    ├── frontend/               # UI code (Streamlit / Web)
+    ├── rag/                    # RAG pipeline & embeddings
+    ├── tools/                  # Custom tools & utilities
+    ├── .gitignore
+    ├── config.py
+    ├── requirements.txt
+    └── schemas.py
 
 ---
 
 ## 📜 License
 This project is released under the MIT License — see the LICENSE file for details
 
+## ❤️ Contributing
+Contributions are welcome! Please fork the project and open a PR with your improvements.
 
 
 
