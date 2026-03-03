@@ -89,7 +89,7 @@ This repository is structured to support modular tool integration, RAG pipelines
    
 ---
 
-🔑 Environment Variables
+##🔑 Environment Variables
 ```bash
 # LLM API keys
 OPENAI_API_KEY=your_openai_key
@@ -97,3 +97,7 @@ HF_API_TOKEN=your_huggingface_token
 
 # Vector store config (if needed)
 FAISS_PATH="./db/faiss_index"
+
+---
+
+##🧪 Usage
