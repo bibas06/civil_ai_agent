@@ -76,7 +76,7 @@ This repository is structured to support modular tool integration, RAG pipelines
 ## 📥 Installation
 
 1. **Clone the repo**
-   ```bash
    git clone https://github.com/bibas06/civil_ai_agent.git
    cd civil_ai_agent
-2.Create & activate virtualenv
+2. **Create & activate virtualenv**
+   
