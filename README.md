@@ -89,15 +89,49 @@ This repository is structured to support modular tool integration, RAG pipelines
    
 ---
 
-##🔑 Environment Variables
-```bash
-# LLM API keys
-OPENAI_API_KEY=your_openai_key
-HF_API_TOKEN=your_huggingface_token
+## 🔑 Environment Variables
 
-# Vector store config (if needed)
-FAISS_PATH="./db/faiss_index"
+      ```bash
+      # LLM API keys
+      OPENAI_API_KEY=your_openai_key
+      HF_API_TOKEN=your_huggingface_token
+      
+      # Vector store config (if needed)
+      FAISS_PATH="./db/faiss_index"
+    
+---
+
+## 🧪 Usage
+
+1. **Start the backend**
+   ```bash
+    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+2. **Open the frontend UI**
+   ```bash
+   streamlit run frontend/app.py
 
 ---
 
-##🧪 Usage
+## 📁 Folder Structure
+
+civil_ai_agent/
+├── agents/                 # Agent definitions & tools
+├── app/                    # FastAPI backend
+├── frontend/               # UI code (Streamlit / Web)
+├── rag/                    # RAG pipeline & embeddings
+├── tools/                  # Custom tools & utilities
+├── .gitignore
+├── config.py
+├── requirements.txt
+└── schemas.py
+
+---
+
+## 📜 License
+This project is released under the MIT License — see the LICENSE file for details
+
+
+
+
+
+
