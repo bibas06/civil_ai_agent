@@ -128,11 +128,14 @@ This repository is structured to support modular tool integration, RAG pipelines
 ---
 
 ## 📜 License
-This project is released under the MIT License — see the LICENSE file for details
+This project is released under the MIT License — see the LICENSE file for details.
 
 ## ❤️ Contributing
 Contributions are welcome! Please fork the project and open a PR with your improvements.
 
+## ⭐ Support the Project
+If you find this project helpful, insightful, or useful for your own AI engineering journey:
+👉 Please consider giving it a star on GitHub!
 
 
 
