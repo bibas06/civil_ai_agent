@@ -76,7 +76,23 @@ This repository is structured to support modular tool integration, RAG pipelines
 ## 📥 Installation
 
 1. **Clone the repo**
+   ```bash
    git clone https://github.com/bibas06/civil_ai_agent.git
    cd civil_ai_agent
 2. **Create & activate virtualenv**
+   ```bash
+   source venv/bin/activate   # macOS / Linux
+   venv\Scripts\activate      # Windows
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
    
+---
+
+🔑 Environment Variables
+# LLM API keys
+OPENAI_API_KEY=your_openai_key
+HF_API_TOKEN=your_huggingface_token
+
+# Vector store config (if needed)
+FAISS_PATH="./db/faiss_index"
