@@ -113,7 +113,6 @@ This repository is structured to support modular tool integration, RAG pipelines
 ---
 
 ## 📁 Folder Structure
-    ```bash
     civil_ai_agent/
     ├── agents/                 # Agent definitions & tools
     ├── app/                    # FastAPI backend
